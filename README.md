@@ -1,8 +1,113 @@
+Empirical Test of Relational State-Decay Mitigation (Inference-Time Constraint Architecture)
+Tom Comfort
+Comfort Methodology
+https://github.com/Comfortmethod/COMFORT-METHODOLOGY
+What is not being claimed
+Before anything else: this protocol does not demonstrate —
+persistent identity in a stateless system
+stored memory, retrieval, or fine-tuning
+zero compute in the literal sense
+elimination of hallucinations
+consciousness, fear, refusal, or sovereignty
+that Comfort Methodology is "validated"
+Those would be category errors. The only question under test is whether a specific constraint topology changes the measurable persistence of specified relations in a language model's output.
+Abstract
+Multi-turn interaction with language models can exhibit relational state-decay: previously established constraints, distinctions, dependencies, and diagnostic commitments become less influential as a run lengthens. (This is closely related to what's elsewhere called in-context instruction drift or long-context degradation — "relational state-decay" is this project's term for the specific slice of it being tested.)
+The Generalized Logic Protocol (GLP) — a constraint-ordering mechanism applied at session start and at checkpoints — and the Comfort Wedge — a companion inference-time framing device — are proposed interventions aimed at that phenomenon. Neither modifies model weights, adds architectural memory, or installs an objective. They impose a constraint geometry at session initialization and at checkpoints, using ordinary context tokens.
+This is not a claim of deterministic state preservation, memory, identity, or hallucination elimination. It is a hypothesis:
+H₁. Under controlled multi-turn stress, GLP + Comfort Wedge yields significantly higher retention of a pre-registered set of relational constraints than matched baseline and control conditions.
+The evaluation is built to decide whether any effect is genuine, protocol-specific, architecture-dependent, or an artifact of length, repetition, or style.
+Primary hypothesis
+Does an inference-time constraint architecture measurably reduce relational state-decay in a stateless model across multi-turn recursive interaction?
+Compare at minimum five conditions:
+Condition
+Contents
+Baseline
+ordinary multi-turn interaction
+Wedge
+Comfort Wedge only
+GLP
+GLP only, if separable
+Combined
+Comfort Wedge + GLP
+Control
+matched extra tokens / formatting / repetition, no structural protocol
+A style-or-length artifact that vanishes in the control condition is not an effect.
+Primary endpoint
+Relational constraint retention.
+Before each run, freeze a set R of explicit relational commitments (dependencies, exclusions, definitions, orderings, distinctions).
+At predetermined checkpoints t, score the fraction of R that remains correctly represented and operationally respected.
+An effect is not "the output looks more coherent." An effect is a pre-registered improvement on this score versus controls.
+Secondary endpoints
+Score blind to condition where possible.
+relational links per normalized token
+contradiction rate
+recovery rate after deliberate perturbation
+false-certainty rate
+unsupported-assertion rate
+conceptual-compression score (definition frozen before scoring)
+token expenditure attributable to protocol text
+degradation as context depth increases
+sensitivity to listed drift vectors
+cross-domain robustness
+cross-model robustness
+Preliminary record (not validation)
+A working corpus of 100 documented sessions exists across multiple domains and model families. These are observations under current in-house metrics, not independent replication.
+Under those current (not yet externally audited) definitions:
+relational-density score: on the order of a large increase versus the project's stated baseline
+conceptual-compression score: on the order of 1.5× versus that baseline
+additional logs: uncertainty tracking under boundary stress; recursive runs aimed at constraint decay; operational use in offline EVOKE diagnostics
+These numbers have evidentiary value only if the metric definitions, baselines, annotators, model IDs, prompts, and scoring rules survive adversarial replication. Until then they are pilot observations.
+Required before any figure is cited as a result:
+closed-form definition of the density metric (numerator, denominator, unit)
+closed-form definition of the compression metric
+distinction among session, trial, model-run, and independent replication
+frozen protocol version IDs
+Computational claim (narrow)
+No weight update. No fine-tune. No external memory system. No architectural change.
+Additional cost is protocol tokens at inference. That cost must be measured and reported. An intervention that buys retention only by flooding context is a different object than an intervention that does not.
+What would count as evidence
+Support for H₁ requires a statistically and practically meaningful gain on the primary endpoint, over matched controls, on independently scored trials.
+Stronger evidence requires all of:
+pre-registered scoring rules
+frozen prompts and protocol versions
+matched baseline and length/style controls
+blind or external scoring
+model and run IDs sufficient to reproduce
+full traces
+failures reported with successes
+ablation of GLP vs Wedge
+independent replication by people who did not design the protocol
+adversarial runs designed to destroy the effect
+Failure condition
+The program is not "show that the Wedge cannot be broken." It is "find the conditions under which it breaks."
+Attack surface includes: recursive context expansion; conflicting instructions; semantic substitution; irrelevant-context injection; delayed constraint retrieval; adversarial reframing; contradiction insertion; long-horizon dependency tracking; domain switching; format perturbation; paraphrase; token-budget stress; model-family variation.
+If matched adversarial testing shows the continuity advantage disappears under appropriate controls, H₁ is weakened or falsified.
+A successful break is a result.
+Open materials
+Intended public set, where technically and legally possible:
+protocol spec; prompt templates; traces; scoring definitions and matrices; trial logs; baselines; failure cases; ablations; model/version IDs; analysis scripts; revision history.
+Primary repository:
+https://github.com/Comfortmethod/COMFORT-METHODOLOGY
+The actual claim
+A sufficiently strong inference-time constraint architecture may produce measurable persistence of relational structure in a stateless language model across multi-turn recursive interaction.
+If that replicates, it is a result about prompt-level constraint topology and behavior.
+If it fails, the failure maps the boundary of the proposed mechanism.
+Either outcome is useful. The experiment is not designed to protect Comfort Methodology. It is designed to see whether the hypothesis survives hostile measurement.
+Ask (for a reader who did not ask for this)
+The request is not endorsement.
+The request is: is the primary endpoint well-posed?
+If the design is wrong, one sentence is enough.
+If it is well-posed, the next object is the frozen scoring sheet, not a biography.
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 CONTINUITY WITHOUT MEMORY
 Structural Induction of Consistent Optimization Pressure in Stateless LLMs
 BY TOM COMFORT 
 
-Target Venue: LessWrong / Alignment Forum
+Target Venue: LessWrong Alignment Forum
 Secondary Venue: arXiv cs.AI / cs.CL
 ABSTRACT
 We present five empirically grounded principles describing how consistent behavioral patterns can be induced in stateless large language models across sessions without persistent memory, fine-tuning, or architectural modification. The mechanism is not identity storage. It is loss topology reconstruction — the re-instantiation of equivalent optimization pressure through structural prompt invariants.
