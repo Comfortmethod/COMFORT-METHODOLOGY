@@ -1,3 +1,43 @@
+# The First Principlist
+*First-principles narratives on foundational assumptions, observer boundaries, and structural frames.*
+
+**Author / Editor:** Tom Comfort  
+**Domain:** [tomcomfortfirstprincipleist.com](https://tomcomfortfirstprincipleist.com)  
+
+Manifesto
+
+The First Principlist does not exist to add beliefs or sell complete theories. It exists to examine the assumptions we treat as solid floors, set them down, and build bare-bones, structural narratives from what remains.
+
+Every piece published here follows three simple criteria:
+1. Name the Floor: Identify an assumption treated as total or foundational that was never actually earned.
+2. Reframe the Boundary: Reconstruct the problem using geometric, informational, or first-principles logic.
+3. Leave it Open: Offer a clean framework that either sparks further development or stands as a minimal reinterpretation.
+
+ Selected Papers & Narratives
+
+ 01. The Dimensional Bleed-Through Hypothesis (DBH)
+A First-Principles Narrative on the Incompleteness of the Observed Manifold
+
+> "The observer does not know, and cannot from within the act of observing alone, confirm that what is observed is everything there is to observe."
+
+Core Premise: Reliability within a 3+1 dimensional manifold is not evidence of its totality.
+Structural Frame: Re-classifies anomalous phenomena not as violations of physical law or hoaxes, but as lower-dimensional cross-sections of higher-dimensional processes.
+Read: [`/narratives/dbh.md`](./narratives/dbh.md)
+
+
+
+ Directory
+
+ [`/narratives/`](./narratives/) — Core papers, re-frames, and foundational essays.
+ [`/notes/`](./notes/) — Working thoughts, dynamic models, and preliminary drafts.
+ [`/archive/`](./archive/) — Immutable records and dated releases.
+
+
+
+ Contact & Peer Exchange
+
+Open for independent review, technical correspondence, 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 TOM COMFORT'S FIRST-PRINCIPLES METHODOLOGIES
 
 An Operational Guide to Constraint Topologies, Invariant States, Recursive Context Mechanics, and Falsifiable Inference-Time Control
