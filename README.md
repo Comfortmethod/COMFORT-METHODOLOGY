@@ -1,8 +1,8 @@
-# The First Principlist
-*First-principles narratives on foundational assumptions, observer boundaries, and structural frames.*
+The First Principlist
+First-principles narratives on foundational assumptions, observer boundaries, and structural frames.
 
-**Author / Editor:** Tom Comfort  
-**Domain:** [tomcomfortfirstprincipleist.com](https://tomcomfortfirstprincipleist.com)  
+Author / Editor:** Tom Comfort  
+Domain:[tomcomfortfirstprincipleist.com](https://tomcomfortfirstprincipleist.com)  
 
 Manifesto
 
